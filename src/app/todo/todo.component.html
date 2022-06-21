@@ -1,0 +1,10 @@
+<div class="todo">
+  <p
+    (click)="toggleDone(index)"
+    class="{{ todo.complete ? 'done-text' : 'text' }}"
+  >
+    {{ todo.text }}
+  </p>
+
+  <p (click)="deleteItem(index)" class="delete">+</p>
+</div>

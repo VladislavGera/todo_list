@@ -1,0 +1,36 @@
+.todo {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid gray;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 5px;
+}
+
+.delete {
+  color: tomato;
+  font-weight: 600;
+  font-size: 25px;
+  margin: 0px;
+  cursor: pointer;
+  transform: rotate(45deg);
+}
+
+.text {
+  cursor: pointer;
+  font-size: 20px;
+  margin: 0px;
+  transition: 0.5s;
+}
+
+.done-text {
+  font-size: 20px;
+  cursor: pointer;
+  margin: 0px;
+  text-decoration: line-through;
+  transition: 0.5s;
+}

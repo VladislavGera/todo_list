@@ -1,0 +1,9 @@
+<div class="todos">
+  <app-todo
+    *ngFor="let todo of list; let index = index"
+    [todo]="todo"
+    [index]="index"
+    [deleteItem]="deleteItem"
+    [toggleDone]="toggleDone"
+  ></app-todo>
+</div>
